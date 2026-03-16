@@ -11,19 +11,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
 }
 
 
-body::before {
-    background-image: url("img/code.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    content: "";
-    display: block;
+.papeldeparede{
     position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.4;
+    object-fit: cover;
+    z-index: -1;
+
 }
 
 .container {
